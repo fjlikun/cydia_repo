@@ -1,0 +1,9 @@
+Origin: lik
+Label: lik
+Suite: stable
+Version: 1.0
+Codename: lik
+Support: https://github.com/fjlikun/cydia_repo
+Architectures: iphoneos-arm
+Components: main
+Description: Cydia repo run in ios

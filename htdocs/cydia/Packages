@@ -1,0 +1,226 @@
+Package: adv-cmds
+Version: 119-5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 244
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Provides: ps
+Filename: debs/adv-cmds_119-5_iphoneos-arm.deb
+Size: 62166
+MD5sum: d344d427d16f241f7bf01799bea3085b
+SHA1: 889372a031f7a717662c34423d33192af820d028
+SHA256: 07039ae8680117519ad95e26d222d8376d606689973c0c02ddf3542c8d82b1bf
+Section: Administration
+Priority: important
+Description: finger, fingerd, last, lsvfs, md, ps
+
+Package: basic-cmds
+Version: 48-2p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 92
+Filename: debs/basic-cmds_48-2p_iphoneos-arm.deb
+Size: 12760
+MD5sum: 44c4c09cd67d2f3e182018c6b9594fcd
+SHA1: 5c9c5e87328791100cbf7fb063e3b5576938e959
+SHA256: 41afe335a0cadd76a9d2e08677a898d77da5eadf22b6d33a2e40190699779a92
+Section: Utilities
+Priority: important
+Description: msg, uudecode, uuencode, write
+
+Package: com.saurik.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 18114
+MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
+SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
+Section: System
+Priority: optional
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Name: Apple File Conduit "2"
+
+Package: file
+Version: 4.23-2p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1760
+Filename: debs/file_4.23-2p_iphoneos-arm.deb
+Size: 319326
+MD5sum: 7009b14aca4f28022301b448c4e2aabf
+SHA1: 0132ed8309d317adcee840a40f12bb810654e474
+SHA256: 5bd1b5706fe8c0e5fc14e90fe91380ecc25d1f8b7b7b06418197fc6fa76afea9
+Section: Utilities
+Priority: important
+Description: guesses the type of a file from contents
+
+Package: file-cmds
+Version: 220.7-3
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 296
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/file-cmds_220.7-3_iphoneos-arm.deb
+Size: 57908
+MD5sum: be33a80c9418b5ffc318bd0219b896c1
+SHA1: 32108b96a5d650b27b55753b025143fd4119dac6
+SHA256: 80f8889db3bd710b06d161b53d09c84e9f287d6f2a149f4df5331e8696c81c46
+Section: Utilities
+Priority: important
+Description: chflags, compress, ipcrm, ipcs, pax
+
+Package: lighttpd
+Version: 1.4.18-6p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1020
+Depends: bzip2, libxml2, openssl, pcre, sqlite3
+Filename: debs/lighttpd_1.4.18-6p_iphoneos-arm.deb
+Size: 274102
+MD5sum: d2164b778d4f9bb8d072f29bc59c6c7a
+SHA1: 8a74d94bd22827a39845d5c70347c885186ae098
+SHA256: 0834b57b4d1759fad22578206b30188c665ef626e98ca45e32720bb9b0eb5152
+Section: Networking
+Priority: optional
+Homepage: http://www.lighttpd.net/
+Description: very small, supposedly fast, webserver
+Depiction: http://cydia.saurik.com/info/lighttpd/
+
+Package: mobilefinder
+Version: 55-3p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: com.saurik.iphone.mamu
+Filename: debs/mobilefinder_55-3p_iphoneos-arm.deb
+Size: 199000
+MD5sum: 9822534b742d0cb4bd5ad44fab195bea
+SHA1: acc4e79b1a0f296da283e4ebdce5b86dd5950085
+SHA256: 71837b3c22ffc811c58b74836c93008d81725659c49c1ac7a0eb3994e6d0a2c9
+Section: System
+Priority: optional
+Homepage: http://code.google.com/p/mobilefinder/
+Description: file management (mostly works)
+Author: Matt Stoker
+Depiction: http://cydia.saurik.com/info/mobilefinder/
+Name: MobileFinder
+
+Package: mobileterminal
+Version: 364.3-12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 532
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: debs/mobileterminal_364.3-12_iphoneos-arm.deb
+Size: 239540
+MD5sum: bb3eb9ad226b8f166adfbd7737ff85e7
+SHA1: 7864b91cebe4baf7f9afd46b3aed45de7edcc414
+SHA256: b279ad475aa5e9f7de496892768ac12626dd8891bd78738732fdc0915a5e1d88
+Section: Terminal_Support
+Priority: standard
+Homepage: http://code.google.com/p/mobileterminal/
+Description: local UIKit-based Terminal emulator
+ This is a Terminal emulator for the iPhone. With it you can do all of
+ your standard system administration tasks from anywhere: ssh into
+ remote boxes, download files, edit configuration files, whatever.
+ Please note, though, that this package does not fully work yet on
+ iPhoneOS 2.x. For more information (and a status update) please click
+ below for More Information.
+Author: Allen Porter <allen.porter@gmail.com>
+Depiction: http://cydia.saurik.com/info/mobileterminal/
+Name: MobileTerminal
+
+Package: openssh
+Version: 6.7p1-12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4416
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: debs/openssh_6.7p1-12_iphoneos-arm.deb
+Size: 587508
+MD5sum: 3fc8717e335ef37c7f10e99564ead3a1
+SHA1: 50b7ca5d6817f0510a0f194aa20f6e6e2de76cd7
+SHA256: a73e696b23b82b4224df7b61b869413fa7abc71ecd0100a9b469f83b32f7ebe9
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
+Package: shell-cmds
+Version: 118-6
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 104
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: killall, which
+Filename: debs/shell-cmds_118-6_iphoneos-arm.deb
+Size: 10022
+MD5sum: 0e873094909ea0944c35f17f9f6053b4
+SHA1: d733831d2c2d12466681601ade56f781e749e633
+SHA256: 1325f1068c1d83ad44ae5282d907416027f8398d1299263fca82c8188a050ef4
+Section: Administration
+Priority: important
+Description: killall, mktemp, renice, time, which
+
+Package: sudo
+Version: 1.6.9p12-4p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 436
+Filename: debs/sudo_1.6.9p12-4p_iphoneos-arm.deb
+Size: 179154
+MD5sum: d27d1b293fd479c723146e73d1a46eab
+SHA1: 821eb4198e35ad596d13ccbe807fa7c35202a2df
+SHA256: 0bc251e772c22c30f82be302c858dd014fdda6ce1bba2be2d00dbf11620c96c0
+Section: Administration
+Priority: standard
+Description: temporarily assume root priviledges
+Name: Sudo
+
+Package: system-cmds
+Version: 433.4-9
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 768
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: pam
+Provides: login, passwd, reboot
+Filename: debs/system-cmds_433.4-9_iphoneos-arm.deb
+Size: 86538
+MD5sum: 64abdcd77a6fedd25c9696f6c59bbd34
+SHA1: 9fd37cc64487155f1b1db551bc5dec7673e08981
+SHA256: 698733e418a6cc75049db113436c6fe64f7af88ca6f12a0a959fe506d1dd76a8
+Section: Administration
+Priority: required
+Description: iostat, login, passwd, sync, sysctl
+
+Package: tcsh
+Version: 6.15.00-3p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 468
+Depends: ncurses
+Filename: debs/tcsh_6.15.00-3p_iphoneos-arm.deb
+Size: 234436
+MD5sum: 340f5e695949e5d2cf2d1e90e2a33ec0
+SHA1: 6fdf32fac7e8efe17f5f3dd3d524e4aadac6f8e9
+SHA256: b8280d3c3876719de7e237a73cd4267d8e38cfb7df002ad1b1c259bb2590e739
+Section: Terminal_Support
+Priority: optional
+Description: enhanced version of the BSD C Shell
+Name: TENEX C Shell
+
